@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9004F0D19FF0F0E00DAAD70 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9004F0C19FF0F0E00DAAD70 /* SignInViewController.swift */; };
+		D9004F0F19FF71AB00DAAD70 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9004F0E19FF71AB00DAAD70 /* WelcomeViewController.swift */; };
+		D9004F1119FF740800DAAD70 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9004F1019FF740800DAAD70 /* GalleryViewController.swift */; };
 		D9A7C22F19F969A70016E2B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7C22E19F969A70016E2B3 /* AppDelegate.swift */; };
 		D9A7C23119F969A70016E2B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7C23019F969A70016E2B3 /* ViewController.swift */; };
 		D9A7C23419F969A80016E2B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A7C23219F969A80016E2B3 /* Main.storyboard */; };
 		D9A7C23619F969A80016E2B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A7C23519F969A80016E2B3 /* Images.xcassets */; };
 		D9A7C23919F969A80016E2B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A7C23719F969A80016E2B3 /* LaunchScreen.xib */; };
 		D9A7C24519F969A80016E2B3 /* KarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7C24419F969A80016E2B3 /* KarouselTests.swift */; };
+		D9A7C24F19F96AA40016E2B3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7C24E19F96AA40016E2B3 /* Common.swift */; };
+		D9A7C25119F96AD70016E2B3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7C25019F96AD70016E2B3 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9004F0C19FF0F0E00DAAD70 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D9004F0E19FF71AB00DAAD70 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D9004F1019FF740800DAAD70 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		D9A7C22919F969A70016E2B3 /* Karousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A7C22D19F969A70016E2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9A7C22E19F969A70016E2B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 		D9A7C23E19F969A80016E2B3 /* KarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A7C24319F969A80016E2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9A7C24419F969A80016E2B3 /* KarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarouselTests.swift; sourceTree = "<group>"; };
+		D9A7C24E19F96AA40016E2B3 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		D9A7C25019F96AD70016E2B3 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,17 @@
 		D9A7C22B19F969A70016E2B3 /* Karousel */ = {
 			isa = PBXGroup;
 			children = (
+				D9A7C24E19F96AA40016E2B3 /* Common.swift */,
 				D9A7C22E19F969A70016E2B3 /* AppDelegate.swift */,
 				D9A7C23019F969A70016E2B3 /* ViewController.swift */,
 				D9A7C23219F969A80016E2B3 /* Main.storyboard */,
 				D9A7C23519F969A80016E2B3 /* Images.xcassets */,
 				D9A7C23719F969A80016E2B3 /* LaunchScreen.xib */,
 				D9A7C22C19F969A70016E2B3 /* Supporting Files */,
+				D9A7C25019F96AD70016E2B3 /* IntroViewController.swift */,
+				D9004F0C19FF0F0E00DAAD70 /* SignInViewController.swift */,
+				D9004F0E19FF71AB00DAAD70 /* WelcomeViewController.swift */,
+				D9004F1019FF740800DAAD70 /* GalleryViewController.swift */,
 			);
 			path = Karousel;
 			sourceTree = "<group>";
@@ -213,7 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A7C23119F969A70016E2B3 /* ViewController.swift in Sources */,
+				D9004F1119FF740800DAAD70 /* GalleryViewController.swift in Sources */,
+				D9A7C24F19F96AA40016E2B3 /* Common.swift in Sources */,
 				D9A7C22F19F969A70016E2B3 /* AppDelegate.swift in Sources */,
+				D9004F0F19FF71AB00DAAD70 /* WelcomeViewController.swift in Sources */,
+				D9004F0D19FF0F0E00DAAD70 /* SignInViewController.swift in Sources */,
+				D9A7C25119F96AD70016E2B3 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Karousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Karousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +427,7 @@
 				D9A7C24A19F969A80016E2B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9A7C24B19F969A80016E2B3 /* Build configuration list for PBXNativeTarget "KarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +436,7 @@
 				D9A7C24D19F969A80016E2B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
